@@ -26,7 +26,7 @@ elif pilihan == "3":
     hasil = angka1 * angka2
     print("Hasil perkalian:", hasil)
 
-# --- BAGIAN ANGGOTA 2 (Branch: fitur-pembagian) ---
+print(1)-
 
 
 else:
