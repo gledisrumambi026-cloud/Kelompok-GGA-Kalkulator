@@ -13,17 +13,15 @@ angka1 = float(input("Masukkan angka pertama: "))
 angka2 = float(input("Masukkan angka kedua: "))
 
 # --- AREA BRANCH 1: FITUR PENJUMLAHAN ---
-if pilihan == "1":
-    hasil = angka1 + angka2
-    print("Hasil penjumlahan:", hasil)
+
 
 # --- AREA BRANCH 2: FITUR PENGURANGAN ---
-if pilihan == "2":
-    hasil = angka1 - angka2
-    print("Hasil pengurangan:", hasil)
+
 
 # --- AREA BRANCH 3: FITUR PERKALIAN ---
-
+if pilihan == "3":
+    hasil = angka1 * angka2
+    print("Hasil perkalian:", hasil)
 
 # --- AREA BRANCH 4: FITUR PEMBAGIAN ---
 
