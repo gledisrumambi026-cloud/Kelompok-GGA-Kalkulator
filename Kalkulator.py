@@ -16,7 +16,9 @@ angka2 = float(input("Masukkan angka kedua: "))
 
 
 # --- AREA BRANCH 2: FITUR PENGURANGAN ---
-
+if pilihan == "2":
+    hasil = angka1 - angka2
+    print("Hasil pengurangan:", hasil)
 
 # --- AREA BRANCH 3: FITUR PERKALIAN ---
 
