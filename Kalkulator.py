@@ -22,10 +22,7 @@ angka2 = float(input("Masukkan angka kedua: "))
 
 
 # --- AREA BRANCH 4: FITUR PEMBAGIAN ---
-if pilihan == "4":
-    if angka2 != 0:
-        hasil = angka1 / angka2
-        print("Hasil pembagian:", hasil)
+
     else:
         print("Error: Tidak bisa membagi dengan nol!")
 
