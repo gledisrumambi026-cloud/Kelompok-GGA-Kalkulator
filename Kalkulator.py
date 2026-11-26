@@ -19,12 +19,15 @@ angka2 = float(input("Masukkan angka kedua: "))
 
 
 # --- AREA BRANCH 3: FITUR PERKALIAN ---
-if pilihan == "3":
-    hasil = angka1 * angka2
-    print("Hasil perkalian:", hasil)
+
 
 # --- AREA BRANCH 4: FITUR PEMBAGIAN ---
-
+if pilihan == "4":
+    if angka2 != 0:
+        hasil = angka1 / angka2
+        print("Hasil pembagian:", hasil)
+    else:
+        print("Error: Tidak bisa membagi dengan nol!")
 
 if pilihan not in ["1", "2", "3", "4"]:
     print("Pilihan tidak tersedia.")
