@@ -26,8 +26,9 @@ elif pilihan == "3":
     hasil = angka1 * angka2
     print("Hasil perkalian:", hasil)
 
-# --- BAGIAN ANGGOTA 2 (Branch: fitur-pembagian) ---
-
+elif pilihan == "4":
+    hasil = angka1 / angka2
+    print("Hasil pembagian:", hasil)
 
 else:
     print("Pilihan tidak tersedia.")
