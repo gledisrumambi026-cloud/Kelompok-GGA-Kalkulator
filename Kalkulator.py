@@ -21,17 +21,17 @@ if pilihan == "1":
 
 # Fungsi pengurangan 
 elif pilihan == "2":
-    hasil = angka1 - angka2
+    hasil = pengurangan(angka1, angka2)
     print("Hasil pengurangan:", hasil)
 
 # Funngsi perkalian
 elif pilihan == "3":
-    hasil = angka1 * angka2
+    hasil = perkalian(angka1, angka2)
     print("Hasil perkalian:", hasil)
 
 # Fungsi Pembagian
 elif pilihan == "4":
-    hasil = angka1 / angka2
+    hasil = pembagian(angka1, angka2)
     print("Hasil pembagian:", hasil)
 
 
