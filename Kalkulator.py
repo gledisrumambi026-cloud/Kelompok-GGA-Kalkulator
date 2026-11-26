@@ -16,7 +16,7 @@ angka2 = float(input("Masukkan angka kedua: "))
 
 # Funngsi Pemjumlahan
 if pilihan == "1":
-    hasil = angka1 + angka2
+    hasil = penjumlahan(angka1, angka2)
     print("Hasil penjumlahan:", hasil)
 
 # Fungsi pengurangan 
