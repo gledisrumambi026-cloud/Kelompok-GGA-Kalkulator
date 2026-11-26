@@ -26,4 +26,4 @@ Python
 ## Anggota Kelompok
 - Gledis Yunisty Gloria Rumambi - 260211060011
 - Glenn Miracle Yeremia Montolalu - 260211060073
-- Avril Michiko Wua - 260211060011
+- Avril Michiko Wua - 260211060019
