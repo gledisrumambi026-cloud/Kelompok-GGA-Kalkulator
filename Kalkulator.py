@@ -22,8 +22,9 @@ elif pilihan == "2":
     hasil = angka1 - angka2
     print("Hasil pengurangan:", hasil)
 
-# --- BAGIAN ANGGOTA 1 (Branch: fitur-perkalian) ---
-
+elif pilihan == "3":
+    hasil = angka1 * angka2
+    print("Hasil perkalian:", hasil)
 
 # --- BAGIAN ANGGOTA 2 (Branch: fitur-pembagian) ---
 
