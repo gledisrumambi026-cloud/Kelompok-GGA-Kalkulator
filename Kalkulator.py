@@ -1,9 +1,8 @@
-
 # PROGRAM KALKULATOR SEDERHANA
 
-print("================================")
-print("     KALKULATOR SEDERHANA")
-print("================================")
+print("===========================")
+print("    KALKULATOR SEDERHANA")
+print("===========================")
 
 print("1. Penjumlahan (+)")
 print("2. Pengurangan (-)")
@@ -23,16 +22,11 @@ elif pilihan == "2":
     hasil = angka1 - angka2
     print("Hasil pengurangan:", hasil)
 
-elif pilihan == "3":
-    hasil = angka1 * angka2
-    print("Hasil perkalian:", hasil)
+# --- BAGIAN ANGGOTA 1 (Branch: fitur-perkalian) ---
 
-elif pilihan == "4":
-    if angka2 != 0:
-        hasil = angka1 / angka2
-        print("Hasil pembagian:", hasil)
-    else:
-        print("Error: Tidak bisa membagi dengan nol!")
+
+# --- BAGIAN ANGGOTA 2 (Branch: fitur-pembagian) ---
+
 
 else:
     print("Pilihan tidak tersedia.")
